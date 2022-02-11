@@ -3,5 +3,5 @@ module "s3-bucket" {
   version = "2.8.0"
   bucket = "guarav"
   acl = "private"
-  bucket_prefix = "${PREFIX}"
+  bucket_prefix = "infoblox-brayburn"
 }
